@@ -1,0 +1,3 @@
+/** Durable stage contract for a future authenticated n8n workflow. No live n8n webhook is configured. */
+export const pipelineStages=['UPLOADED','ANALYZING','OCR PROCESSING','EXTRACTING TEXT','BUILDING PAGE INDEX','EXTRACTING METADATA','EXTRACTING ENTITIES','EXTRACTING EVENTS','BUILDING KNOWLEDGE GRAPH','CREATING EMBEDDINGS','SEMANTIC INDEXING','VALIDATING','READY'] as const;
+export type PagePacket={documentId:string;pageNumber:number;text:string;method:'NATIVE_TEXT'|'OCR'|'UNREADABLE';confidence:number|null;headings:{title:string;level:string;confidence:number}[];chunks:{position:number;text:string;embedding:number[]}[]};

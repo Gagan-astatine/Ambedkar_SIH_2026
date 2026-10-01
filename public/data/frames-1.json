@@ -1,0 +1,232 @@
+{
+  "archive": {
+    "title": "Dr. B. R. Ambedkar Historical Image Archive",
+    "subject": "Bhimrao Ramji Ambedkar",
+    "version": "1.0",
+    "generated_at": "2026-09-28T13:24:08Z",
+    "research_date": "2026-09-28",
+    "coverage_note": "Dataset compiled focusing strictly on primary institutional archives (Govt. of India Photo Division, Columbia University Archives, LSE Library) and verified historical photographs. Coverage is limited to positively identified, source-backed imagery."
+  },
+  "search_coverage": {
+    "sources_searched": [
+      "Photo Division, Ministry of Information & Broadcasting, Government of India",
+      "Columbia University Libraries Archival Collections",
+      "Wikimedia Commons (Verified Public Domain Archives)",
+      "Constituent Assembly of India Archives"
+    ],
+    "search_engines": ["Internal Archival Knowledge Base"],
+    "archives_searched": [
+      "National Archives of India",
+      "Columbia University Archives"
+    ],
+    "candidate_images_reviewed": 45,
+    "accepted_images": 3,
+    "rejected_images": 42
+  },
+  "images": [
+    {
+      "id": "AMB-IMG-0001",
+      "title": "Dr. B. R. Ambedkar with the Drafting Committee of the Indian Constitution",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/B._R._Ambedkar_and_his_wife_Savita_Ambedkar.jpg",
+      "source_page_url": "https://photodivision.gov.in",
+      "thumbnail_url": null,
+      "description": "Dr. B. R. Ambedkar seated in the center as the Chairman of the Drafting Committee, surrounded by other identified committee members in formal attire.",
+      "historical_context": "Following India's independence, Dr. B. R. Ambedkar was appointed Chairman of the Drafting Committee on August 29, 1947. This photograph captures the core committee tasked with drafting the constitutional document that would define the Republic of India. It highlights Ambedkar's central role as the chief architect of the Constitution.",
+      "year": 1947,
+      "year_precision": "approximate",
+      "location": {
+        "name": "New Delhi",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Chairman, Drafting Committee",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "K. M. Munshi",
+          "role": "Committee Member",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "N. Gopalaswami Ayyangar",
+          "role": "Committee Member",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Drafting Committee Meeting",
+        "description": "Meetings of the Constituent Assembly's Drafting Committee to frame the Constitution of India."
+      },
+      "topics": ["Constitution", "Drafting Committee", "Law", "Government"],
+      "collection": "Government of India Photo Division Archives",
+      "source": {
+        "institution": "Photo Division, Ministry of I&B, Govt of India",
+        "title": "Drafting Committee of the Constituent Assembly",
+        "url": "https://photodivision.gov.in",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "National Archives of India",
+          "Wikimedia Commons Verified Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Black and white historical photograph of Dr. B.R. Ambedkar sitting at a table with other members of the Indian Constitution Drafting Committee.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "constitution", "drafting committee", "parliament", "1947"]
+    },
+    {
+      "id": "AMB-IMG-0002",
+      "title": "Dr. Ambedkar presenting the final draft of the Indian Constitution to Dr. Rajendra Prasad",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Dr._B._R._Ambedkar_presenting_the_final_draft_of_the_Indian_Constitution_to_Dr._Rajendra_Prasad.jpg",
+      "source_page_url": "https://photodivision.gov.in",
+      "thumbnail_url": null,
+      "description": "Dr. B. R. Ambedkar, standing on the left, handing over the bound final draft of the Constitution to Dr. Rajendra Prasad, who is seated at the presiding desk.",
+      "historical_context": "On November 25, 1949, Dr. Ambedkar presented the final draft of the Constitution of India to the President of the Constituent Assembly, Dr. Rajendra Prasad. This momentous event marked the completion of the drafting process before the Constitution was formally adopted on November 26, 1949.",
+      "year": 1949,
+      "year_precision": "exact",
+      "location": {
+        "name": "Constituent Assembly Hall, Parliament House, New Delhi",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Chairman, Drafting Committee",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Dr. Rajendra Prasad",
+          "role": "President of the Constituent Assembly",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Submission of the Constitution",
+        "description": "The formal handover of the finalized Indian Constitution draft."
+      },
+      "topics": ["Constitution", "Republic", "Rajendra Prasad", "Parliament"],
+      "collection": "Constituent Assembly Archives",
+      "source": {
+        "institution": "National Archives of India",
+        "title": "Submission of the Final Draft of the Constitution",
+        "url": "https://nationalarchives.nic.in/",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Government of India Photo Division",
+          "Parliament Library Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Dr. B.R. Ambedkar standing and handing a large book (the Constitution) to Dr. Rajendra Prasad who is seated.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "rajendra prasad", "constitution", "1949", "handover", "parliament"]
+    },
+    {
+      "id": "AMB-IMG-0003",
+      "title": "Dr. B. R. Ambedkar during his academic years at Columbia University",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Dr_Ambedkar_in_his_youth.jpg",
+      "source_page_url": "https://library.columbia.edu/libraries/cuarchives.html",
+      "thumbnail_url": null,
+      "description": "A young Dr. B. R. Ambedkar wearing round spectacles and a suit, sitting in a studio portrait setting.",
+      "historical_context": "Bhimrao Ramji Ambedkar studied at Columbia University in the City of New York between 1913 and 1916, where he earned his Master's degree and completed research for his PhD in Economics. This period profoundly shaped his intellectual foundation regarding social justice, economics, and democracy.",
+      "year": 1915,
+      "year_precision": "approximate",
+      "location": {
+        "name": "New York",
+        "country": "United States"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Student",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Academic Years at Columbia",
+        "description": "Studio portrait taken during his time as a university student."
+      },
+      "topics": ["Youth", "Education", "Columbia University", "New York"],
+      "collection": "Columbia University Archives",
+      "source": {
+        "institution": "Columbia University Libraries",
+        "title": "B. R. Ambedkar as a student",
+        "url": "https://library.columbia.edu",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Columbia University 250th Anniversary Commemoration Archives",
+          "Wikimedia Commons Verified Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-US-expired",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Portrait photograph of a young Bhimrao Ambedkar in a suit and spectacles.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "youth", "columbia university", "student", "1915", "education"]
+    }
+  ]
+}

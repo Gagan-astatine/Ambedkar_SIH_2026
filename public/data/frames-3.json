@@ -1,0 +1,225 @@
+{
+  "images": [
+    {
+      "id": "AMB-IMG-0007",
+      "title": "Dr. B. R. Ambedkar at Deeksha Bhoomi, Nagpur",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ambedkar_at_Deeksha_Bhoomi.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Ambedkar_at_Deeksha_Bhoomi.jpg",
+      "thumbnail_url": null,
+      "description": "Dr. B. R. Ambedkar bowing before a statue of the Buddha during the mass conversion ceremony at Deekshabhoomi.",
+      "historical_context": "On October 14, 1956, Dr. Babasaheb Ambedkar initiated a historic mass conversion to Buddhism at Deekshabhoomi in Nagpur. Seeking liberation from the caste system, he was joined by nearly 600,000 followers in what became the foundational moment of the modern Dalit Buddhist movement.",
+      "year": 1956,
+      "year_precision": "exact",
+      "location": {
+        "name": "Deekshabhoomi, Nagpur, Maharashtra",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Leader of the conversion movement",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Navayana Buddhism Conversion at Deekshabhoomi",
+        "description": "Mass conversion ceremony led by Dr. Ambedkar formally embracing Buddhism."
+      },
+      "topics": ["Buddhism", "Deekshabhoomi", "Dalit Buddhist Movement", "Religion", "Social Justice"],
+      "collection": "Wikimedia Commons Verified Archives",
+      "source": {
+        "institution": "Wikimedia Commons",
+        "title": "Ambedkar at Deeksha Bhoomi",
+        "url": "https://commons.wikimedia.org/wiki/File:Ambedkar_at_Deeksha_Bhoomi.jpg",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Navayan Photo Archives",
+          "Wikimedia Commons Verified Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": 371,
+        "height": 460
+      },
+      "alt_text": "Dr. B.R. Ambedkar bowing his head in reverence in front of a Buddha statue at the Deekshabhoomi ceremony in 1956.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "deekshabhoomi", "nagpur", "buddhism", "navayana", "1956", "conversion"]
+    },
+    {
+      "id": "AMB-IMG-0008",
+      "title": "Dr. B. R. Ambedkar with his wife Dr. Savita Ambedkar",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._B.R._Ambedkar_with_wife_Dr._Savita_Ambedkar_in_1948.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Dr._B.R._Ambedkar_with_wife_Dr._Savita_Ambedkar_in_1948.jpg",
+      "thumbnail_url": null,
+      "description": "A close portrait photograph of Dr. B. R. Ambedkar seated next to his wife, Dr. Savita Ambedkar.",
+      "historical_context": "Dr. Ambedkar is photographed alongside his second wife, Dr. Savita Ambedkar (formerly Dr. Sharada Kabir), shortly after their marriage on April 15, 1948, in New Delhi. Dr. Savita Ambedkar was a medical practitioner who cared for him during his declining health and became a dedicated partner in his later social and political endeavors.",
+      "year": 1948,
+      "year_precision": "exact",
+      "location": {
+        "name": "New Delhi",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": true,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Subject",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Dr. Savita Ambedkar",
+          "role": "Family",
+          "relationship_to_ambedkar": "wife",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [
+        {
+          "name": "Dr. Savita Ambedkar",
+          "relationship_to_ambedkar": "wife",
+          "verification_source": "Wikimedia Commons; Biographical Records"
+        }
+      ],
+      "event": {
+        "name": "Post-Marriage Portrait",
+        "description": "Portrait taken following his marriage to Dr. Savita Ambedkar."
+      },
+      "topics": ["Family", "Personal Life", "Savita Ambedkar", "Marriage"],
+      "collection": "Wikimedia Commons Verified Archives",
+      "source": {
+        "institution": "Wikimedia Commons",
+        "title": "Dr. B.R. Ambedkar with wife Dr. Savita Ambedkar in 1948",
+        "url": "https://commons.wikimedia.org/wiki/File:Dr._B.R._Ambedkar_with_wife_Dr._Savita_Ambedkar_in_1948.jpg",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": true,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Wikimedia Commons Verified Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "CC0",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": 670,
+        "height": 711
+      },
+      "alt_text": "Black and white portrait of Dr. B. R. Ambedkar alongside his wife Dr. Savita Ambedkar in 1948.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "savita ambedkar", "wife", "family", "marriage", "delhi", "1948"]
+    },
+    {
+      "id": "AMB-IMG-0009",
+      "title": "The First Cabinet of Independent India",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/The_first_Cabinet_of_independent_India.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:The_first_Cabinet_of_independent_India.jpg",
+      "thumbnail_url": null,
+      "description": "Group photograph of the first Cabinet of independent India. Dr. B. R. Ambedkar is seated on the far left of the front row.",
+      "historical_context": "Following India's independence in 1947, Dr. B. R. Ambedkar was invited by Prime Minister Jawaharlal Nehru to serve as the nation's first Minister of Law and Justice. This official group photograph captures the historic first Cabinet, with Dr. Ambedkar seated alongside prominent national leaders including Nehru, Sardar Vallabhbhai Patel, Maulana Abul Kalam Azad, and Dr. Rajendra Prasad.",
+      "year": 1947,
+      "year_precision": "exact",
+      "location": {
+        "name": "New Delhi",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Minister of Law and Justice",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Jawaharlal Nehru",
+          "role": "Prime Minister",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Sardar Vallabhbhai Patel",
+          "role": "Minister of Home Affairs",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Maulana Abul Kalam Azad",
+          "role": "Minister of Education",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Dr. Rajendra Prasad",
+          "role": "Minister of Food and Agriculture",
+          "relationship_to_ambedkar": "colleague",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Formation of First Cabinet of India",
+        "description": "Official portrait of the first executive Cabinet Ministers of independent India."
+      },
+      "topics": ["Cabinet", "Government of India", "Independence", "Law Minister", "Politics"],
+      "collection": "Wikimedia Commons Verified Archives",
+      "source": {
+        "institution": "Government of India Press Information Bureau / Wikimedia Commons",
+        "title": "The first Cabinet of independent India",
+        "url": "https://commons.wikimedia.org/wiki/File:The_first_Cabinet_of_independent_India.jpg",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Press Information Bureau, Government of India",
+          "Wikimedia Commons"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Group photograph of the first Indian Cabinet in 1947, featuring Dr. Ambedkar seated on the far left.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "cabinet", "nehru", "patel", "law minister", "government", "1947", "independence"]
+    }
+  ]
+}

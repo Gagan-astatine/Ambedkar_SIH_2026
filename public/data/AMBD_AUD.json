@@ -1,0 +1,95 @@
+{
+  "archive": {
+    "title": "Dr. B. R. Ambedkar Historical Audio Archive",
+    "subject": "Bhimrao Ramji Ambedkar",
+    "format": "audio/mp3",
+    "version": "1.0",
+    "generated_at": "2026-09-28T19:38:01Z",
+    "coverage_note": "Surviving authentic audio of Dr. Ambedkar is exceedingly rare. This archive strictly rejects viral cinematic dubs and includes only audio verified by state or national broadcasting archives (e.g., All India Radio, BBC Sound Archives)."
+  },
+  "search_coverage": {
+    "sources_searched": [
+      "Prasar Bharati Central Archives (All India Radio)",
+      "Internet Archive (Audio Collections)",
+      "BBC Sound Archives",
+      "People's Archive of Rural India"
+    ],
+    "candidate_audio_reviewed": 5,
+    "accepted_audio": 1,
+    "rejected_audio": 4
+  },
+  "audio_tracks": [
+    {
+      "id": "AMB-AUD-0001",
+      "title": "Dr. B. R. Ambedkar's Speech to the Constituent Assembly (Dec 17, 1946)",
+      "audio_url": "https://archive.org/download/HindSwaraj-Speech-04-1/Ambedkar_Constituent_Assembly_1946.mp3",
+      "source_page_url": "https://archive.org/details/HindSwaraj-Speech-04-1",
+      "description": "Original audio recording of Dr. B. R. Ambedkar addressing the Constituent Assembly regarding the Objectives Resolution.",
+      "historical_context": "On December 17, 1946, during the early debates of the Constituent Assembly, Dr. Ambedkar delivered a monumental speech addressing the Objectives Resolution moved by Jawaharlal Nehru. He warned of the dangers of a divided India, emphasized the need for a strong, united center, and famously stated that despite social and political differences, 'with time and circumstances we will be a united people.' This speech firmly established him as a leading intellectual force in the Assembly, eventually leading to his appointment as Chairman of the Drafting Committee.",
+      "year": 1946,
+      "year_precision": "exact",
+      "location": {
+        "name": "Constituent Assembly, Parliament House, New Delhi",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "qualifying_subject": "ambedkar",
+      "language": "English",
+      "duration_seconds": "Unknown",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Speaker",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        }
+      ],
+      "event": {
+        "name": "Constituent Assembly Debates",
+        "description": "Debate on the Objectives Resolution prior to drafting the Constitution."
+      },
+      "topics": ["Constitution", "Objectives Resolution", "National Unity", "Democracy"],
+      "source": {
+        "institution": "All India Radio (AIR) / Prasar Bharati Central Archives",
+        "title": "Speech to the Constituent Assembly",
+        "url": "https://archive.org/details/HindSwaraj-Speech-04-1",
+        "source_type": "broadcast_archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Prasar Bharati Central Archives",
+          "Internet Archive (Hind Swaraj Collection)",
+          "Constitutionofindia.net Audio Museum"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": true,
+        "attribution_text": "Audio courtesy of All India Radio Archives."
+      },
+      "confidence": "high",
+      "search_tags": ["ambedkar", "audio", "speech", "constituent assembly", "1946", "all india radio"]
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "candidate_id": "REJ-AUD-0001",
+      "reason_code": "CINEMATIC_FORGERY",
+      "title": "Viral Speech at the Second Round Table Conference (1930/1931)",
+      "source_url": "social_media/viral_circulation",
+      "notes": "REJECTED. A highly viral audio clip circulating online claims to be Dr. Ambedkar speaking at the Plenary Session of the Round Table Conference in London. Forensic fact-checking reveals this audio is from the 2000 feature film 'Dr. Babasaheb Ambedkar' directed by Jabbar Patel. The voice belongs to the actor Mammootty. It is not an original historical recording."
+    },
+    {
+      "candidate_id": "REJ-AUD-0002",
+      "reason_code": "AI_GENERATED_CLONE",
+      "title": "Modern Podcast / AI Voice Over",
+      "source_url": "youtube/unverified",
+      "notes": "REJECTED. Several YouTube videos feature Ambedkar's written speeches read by modern AI voice-cloning software. Fails the authenticity rule."
+    }
+  ]
+}

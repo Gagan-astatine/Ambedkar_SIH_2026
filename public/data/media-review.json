@@ -1,0 +1,16 @@
+{
+  "AMB-AUD-0001": {
+    "status": "SOURCE_PAGE_MATCHED",
+    "reason": "The Internet Archive item is titled Speech to the Constituent Assembly and lists B. R. Ambedkar, 17 December 1946, and All India Radio as its audio source. The supplied direct MP3 filename was not found in the item's file listing; use the item player and check the recording before citing exact words. The supplied public-domain rights claim is not independently established.",
+    "embedUrl": "https://archive.org/embed/HindSwaraj-Speech-04-1",
+    "audioUrl": "https://archive.org/download/HindSwaraj-Speech-04-1/disk04/track_1.ogg"
+  },
+  "AMB-VID-0001": {
+    "status": "AWAITING_SOURCE_VERIFICATION",
+    "reason": "The supplied Internet Archive item identifier could not be confirmed. The Films Division link is an institutional home page, not a page for this footage. Playback and authenticity remain unverified."
+  },
+  "AMB-VID-0002": {
+    "status": "AWAITING_SOURCE_VERIFICATION",
+    "reason": "The supplied Internet Archive item identifier could not be confirmed. The Films Division link is an institutional home page, not a page for this footage. Playback and authenticity remain unverified."
+  }
+}

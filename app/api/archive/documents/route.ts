@@ -1,0 +1,3 @@
+import {env} from '@/src/server/platform-env';import {archiveUser} from '@/app/archive-auth';
+export const runtime='nodejs';
+export async function GET(){const user=await archiveUser();if(!user)return Response.json({error:'Sign in required.'},{status:401});if(!env.DB)return Response.json({error:'Index unavailable.'},{status:503});const rows=await env.DB.prepare('SELECT id,title,filename,sha256,bytes,page_count AS pageCount,status,processed_pages AS processedPages,uploaded_at AS uploadedAt FROM archive_documents WHERE owner_id=? ORDER BY uploaded_at DESC LIMIT 100').bind(user.userId).all();return Response.json({documents:rows.results})}

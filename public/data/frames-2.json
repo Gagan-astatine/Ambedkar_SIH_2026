@@ -1,0 +1,231 @@
+{
+  "images": [
+    {
+      "id": "AMB-IMG-0004",
+      "title": "Dr. Babasaheb Ambedkar as a Barrister at the London School of Economics",
+      "image_url": "https://commons.wikimedia.org/wiki/File:Dr_B_R_Ambedkar_as_Barrister_in_1922.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/Category:Portraits_of_B._R._Ambedkar",
+      "thumbnail_url": null,
+      "description": "Studio portrait of Dr. B. R. Ambedkar dressed in formal barrister's robes and a wig.",
+      "historical_context": "Dr. Ambedkar was called to the Bar at Gray's Inn and completed his studies at the London School of Economics. This 1922 photograph documents his formal entry into the legal profession in the United Kingdom before his return to India, where he would go on to practice at the Bombay High Court.",
+      "year": 1922,
+      "year_precision": "exact",
+      "location": {
+        "name": "London",
+        "country": "United Kingdom"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Barrister",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Call to the Bar",
+        "description": "Formal photograph acknowledging his status as a Barrister-at-Law."
+      },
+      "topics": ["Law", "London School of Economics", "Barrister", "Youth"],
+      "collection": "Wikimedia Commons Verified Archives",
+      "source": {
+        "institution": "Wikimedia Commons",
+        "title": "Dr B R Ambedkar as Barrister in 1922",
+        "url": "https://commons.wikimedia.org",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "Symbiosis Dr. Babasaheb Ambedkar Museum and Memorial",
+          "LSE Archives"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Portrait of Dr. B. R. Ambedkar wearing the traditional wig and robes of a British barrister.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "barrister", "london", "law", "1922", "lse"]
+    },
+    {
+      "id": "AMB-IMG-0005",
+      "title": "Dr. B. R. Ambedkar at the Second Round Table Conference",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Second_round_tableconf.gif",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Second_round_tableconf.gif",
+      "thumbnail_url": null,
+      "description": "A wide group photograph of delegates seated at a large table. Dr. B. R. Ambedkar is seated fourth from the left in the foreground, with Mahatma Gandhi and British Prime Minister Ramsay MacDonald seated in the center background.",
+      "historical_context": "In October 1931, Dr. Ambedkar represented the 'Depressed Classes' at the Second Round Table Conference in London. This conference was a pivotal historical moment where Ambedkar fiercely debated Mahatma Gandhi, arguing for separate electorates to secure political representation and basic rights for untouchables.",
+      "year": 1931,
+      "year_precision": "exact",
+      "location": {
+        "name": "St James's Palace, London",
+        "country": "United Kingdom"
+      },
+      "ambedkar_present": true,
+      "family_member_present": false,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Representative of Depressed Classes",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Mohandas K. Gandhi",
+          "role": "Delegate",
+          "relationship_to_ambedkar": "political_contemporary",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Ramsay MacDonald",
+          "role": "British Prime Minister",
+          "relationship_to_ambedkar": "conference_chair",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [],
+      "event": {
+        "name": "Second Round Table Conference",
+        "description": "Constitutional reform discussions regarding the future of British India."
+      },
+      "topics": ["Politics", "Round Table Conference", "Dalit Rights", "British Raj"],
+      "collection": "Wikimedia Commons Verified Archives",
+      "source": {
+        "institution": "Historical Press Photograph",
+        "title": "Second Round Table Conference in London",
+        "url": "https://commons.wikimedia.org/wiki/File:Second_round_tableconf.gif",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": null,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "British Library Archives",
+          "National Archives of India"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-old-70",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": 640,
+        "height": 480
+      },
+      "alt_text": "Historical photo of delegates at the Second Round Table conference, showing Ambedkar in the foreground and Gandhi in the background.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "gandhi", "round table conference", "london", "1931", "politics"]
+    },
+    {
+      "id": "AMB-IMG-0006",
+      "title": "Dr. Babasaheb Ambedkar with his family members at Rajgruha",
+      "image_url": "https://commons.wikimedia.org/wiki/File:Dr._Babasaheb_Ambedkar_with_his_family_members.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/B._R._Ambedkar",
+      "thumbnail_url": null,
+      "description": "A group photograph taken outdoors. From left to right: Yashwant (Son), Dr. B. R. Ambedkar, Smt. Ramabai (Wife), Smt. Laxmibai (Sister-in-law), alongside a dog named Tobby.",
+      "historical_context": "Taken in February 1934, this is a rare, fully documented family photograph at Rajgruha, his custom-built residence in the Hindu Colony, Dadar (Bombay). It shows Ambedkar with his first wife, Ramabai, whose sacrifices heavily supported his early career, just a year before her passing in 1935.",
+      "year": 1934,
+      "year_precision": "exact",
+      "location": {
+        "name": "Rajgruha, Dadar, Bombay (Mumbai)",
+        "country": "India"
+      },
+      "ambedkar_present": true,
+      "family_member_present": true,
+      "qualifying_subject": "ambedkar",
+      "people_present": [
+        {
+          "name": "Dr. B. R. Ambedkar",
+          "role": "Subject",
+          "relationship_to_ambedkar": "self",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Ramabai Ambedkar",
+          "role": "Family",
+          "relationship_to_ambedkar": "wife",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Yashwant Ambedkar",
+          "role": "Family",
+          "relationship_to_ambedkar": "son",
+          "identity_confidence": "high"
+        },
+        {
+          "name": "Laxmibai",
+          "role": "Family",
+          "relationship_to_ambedkar": "sister_in_law",
+          "identity_confidence": "high"
+        }
+      ],
+      "family_members": [
+        {
+          "name": "Ramabai Ambedkar",
+          "relationship_to_ambedkar": "wife",
+          "verification_source": "Maharashtra State Archives; Dr. Babasaheb Ambedkar Writings and Speeches Photo Archives"
+        },
+        {
+          "name": "Yashwant Ambedkar",
+          "relationship_to_ambedkar": "son",
+          "verification_source": "Maharashtra State Archives"
+        }
+      ],
+      "event": {
+        "name": "Family Gathering at Rajgruha",
+        "description": "Informal family portrait at his personal residence."
+      },
+      "topics": ["Family", "Rajgruha", "Personal Life", "Ramabai Ambedkar"],
+      "collection": "Dr. Babasaheb Ambedkar Writings and Speeches Volumes",
+      "source": {
+        "institution": "Government of Maharashtra",
+        "title": "Dr. Ambedkar with family at Rajgruha",
+        "url": "https://commons.wikimedia.org/wiki/B._R._Ambedkar",
+        "source_type": "archive"
+      },
+      "verification": {
+        "identity_verified": true,
+        "date_verified": true,
+        "context_verified": true,
+        "family_relationship_verified": true,
+        "verification_level": "multi-source",
+        "verification_sources": [
+          "State Government of Maharashtra Photo Archives",
+          "Symbiosis Museum"
+        ]
+      },
+      "rights": {
+        "status": "public_domain",
+        "license": "PD-India",
+        "attribution_required": false
+      },
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "alt_text": "Photograph of Dr. B. R. Ambedkar standing with his wife Ramabai, son Yashwant, and sister-in-law Laxmibai at their home.",
+      "confidence": "high",
+      "search_tags": ["ambedkar", "ramabai", "yashwant", "family", "rajgruha", "1934", "bombay"]
+    }
+  ]
+}

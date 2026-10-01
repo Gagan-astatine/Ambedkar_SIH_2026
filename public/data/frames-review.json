@@ -1,0 +1,11 @@
+{
+  "AMB-IMG-0001": { "status": "REVIEW", "reason": "The image URL identifies a portrait with Savita Ambedkar, not the Drafting Committee named in the caption." },
+  "AMB-IMG-0002": { "status": "REVIEW", "reason": "The supplied source points to a general institution home page; the exact image and context have not been confirmed." },
+  "AMB-IMG-0003": { "status": "REVIEW", "reason": "The source link is a general library page and does not establish the asserted Columbia date or image identity." },
+  "AMB-IMG-0004": { "status": "REVIEW", "reason": "The supplied image URL is a Wikimedia page, and its barrister caption does not establish the asserted London School of Economics setting." },
+  "AMB-IMG-0005": { "status": "PUBLISHED", "reason": "The linked Wikimedia file page identifies Ambedkar in the 1931 Second Round Table Conference photograph. The source should be consulted for attribution and reuse.", "assetUrl": "/assets/frames/AMB-IMG-0005.gif", "assetSha256": "8e2c24c3833c64c2e407f709f06af624a55f0beb5aeeec79a366ced6d5816c0b" },
+  "AMB-IMG-0006": { "status": "REVIEW", "reason": "The image URL is a Wikimedia page rather than image bytes, and the family setting is not confirmed by an exact source page." },
+  "AMB-IMG-0007": { "status": "REVIEW", "reason": "The linked source identifies Deeksha Bhoomi in 1956, but the detailed action and broader caption require image-level review." },
+  "AMB-IMG-0008": { "status": "PUBLISHED", "reason": "The linked Wikimedia file page labels Ambedkar and Savita Ambedkar in 1948. The original photographic attribution remains unverified.", "assetUrl": "/assets/frames/AMB-IMG-0008.jpg", "assetSha256": "af67da5bf974dd2f6f1a7e9b1640b61f3eb03404a99697f8fc97917b8267807c" },
+  "AMB-IMG-0009": { "status": "REVIEW", "reason": "The source file page dates this Cabinet photograph to 1950, while the supplied record assigns it to 1947." }
+}

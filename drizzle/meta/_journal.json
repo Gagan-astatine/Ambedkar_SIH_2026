@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790516791410,
+      "tag": "0000_sticky_captain_america",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790581640724,
+      "tag": "0001_overjoyed_terrax",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790589951804,
+      "tag": "0002_happy_skaar",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1790604573665,
+      "tag": "0003_old_wolverine",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1790737423993,
+      "tag": "0004_magenta_colossus",
+      "breakpoints": true
+    }
+  ]
+}

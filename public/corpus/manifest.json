@@ -1,0 +1,338 @@
+[
+  {
+    "id": "VOL-01",
+    "title": "Volume 1 · supplied PDF",
+    "filename": "Volume1(2).pdf",
+    "sha256": "fb7c5fe1ce9f575417d31d05748445798e8b05d18882c1246a598f19e877c7b8",
+    "bytes": 11151911,
+    "pageCount": 516,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 462,
+      "ocr": 20,
+      "unreadable": 34
+    }
+  },
+  {
+    "id": "VOL-02",
+    "title": "Volume 2 · supplied PDF",
+    "filename": "Volume2(1).pdf",
+    "sha256": "813f730b8c74646bd9132c8e8e2d3663d00a5129baf79ca9f8f3bfc46fc253bb",
+    "bytes": 13563043,
+    "pageCount": 830,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 811,
+      "ocr": 8,
+      "unreadable": 11
+    }
+  },
+  {
+    "id": "VOL-03",
+    "title": "Volume 3 · supplied PDF",
+    "filename": "Volume3(1).pdf",
+    "sha256": "9403671aba3443663cf4b02b5ee22a2f3c5131efcc5e7e0cc335696dcebf5be6",
+    "bytes": 10818747,
+    "pageCount": 510,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 495,
+      "ocr": 5,
+      "unreadable": 10
+    }
+  },
+  {
+    "id": "VOL-04",
+    "title": "Volume 4 · supplied PDF",
+    "filename": "Volume4(1).pdf",
+    "sha256": "025b46c2c1cfcf45dd9666d381ecb4c32a1687dd2663e0a6b6ab91bf8c38f8c8",
+    "bytes": 10115446,
+    "pageCount": 378,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 355,
+      "ocr": 10,
+      "unreadable": 13
+    }
+  },
+  {
+    "id": "VOL-05",
+    "title": "Volume 5 · supplied PDF",
+    "filename": "Volume5(1).pdf",
+    "sha256": "fbaf87ef70d4f7ad62bc596f8cd3a01fb293384c3be671cb059e43719c3be1d0",
+    "bytes": 11330175,
+    "pageCount": 512,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 496,
+      "ocr": 7,
+      "unreadable": 9
+    }
+  },
+  {
+    "id": "VOL-06",
+    "title": "Volume 6 · supplied PDF",
+    "filename": "Volume6(1).pdf",
+    "sha256": "2e2d50cef2c2c3f22e0bbd0d8eddaebe4535223e44e854efa7e803afd2d346a2",
+    "bytes": 13365024,
+    "pageCount": 720,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 686,
+      "ocr": 16,
+      "unreadable": 18
+    }
+  },
+  {
+    "id": "VOL-07",
+    "title": "Volume 7 · supplied PDF",
+    "filename": "Volume7.pdf",
+    "sha256": "953a18dd58d88303943c3f3cb813d187698c87a6fb4cda9f18c3f93505f6ce58",
+    "bytes": 9241940,
+    "pageCount": 406,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 373,
+      "ocr": 10,
+      "unreadable": 23
+    }
+  },
+  {
+    "id": "VOL-08",
+    "title": "Volume 8 · supplied PDF",
+    "filename": "Volume8.pdf",
+    "sha256": "acc4e55dfac6f176f5f06a6624720a4909d4df4df996d6974aa80d555e0735ed",
+    "bytes": 10888923,
+    "pageCount": 512,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 483,
+      "ocr": 7,
+      "unreadable": 22
+    }
+  },
+  {
+    "id": "VOL-09",
+    "title": "Volume 9 · supplied PDF",
+    "filename": "Volume9.pdf",
+    "sha256": "6d26941ff4e02a692d5560ad7dcad6b6bc55f7617cbe263dfafc47127636a47f",
+    "bytes": 12603905,
+    "pageCount": 524,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 499,
+      "ocr": 11,
+      "unreadable": 14
+    }
+  },
+  {
+    "id": "VOL-10",
+    "title": "Volume 10 · supplied PDF",
+    "filename": "Volume10.pdf",
+    "sha256": "0785efac47b6280c1d9833348865feb917c0c696f07ad389dc95279a0d854e2d",
+    "bytes": 19548009,
+    "pageCount": 1106,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 1083,
+      "ocr": 10,
+      "unreadable": 13
+    }
+  },
+  {
+    "id": "VOL-11",
+    "title": "Volume 11 · supplied PDF",
+    "filename": "Volume11.pdf",
+    "sha256": "9980bf9fa56b135fda6a391da6b598aaa56272634275f847686965ad6aca03b1",
+    "bytes": 13532371,
+    "pageCount": 684,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 599,
+      "ocr": 10,
+      "unreadable": 75
+    }
+  },
+  {
+    "id": "VOL-12",
+    "title": "Volume 12 · supplied PDF",
+    "filename": "Volume12.pdf",
+    "sha256": "12f04781d6aa9328dc7903a22cd343e9072c13f31d5fe42d7c9b30ed4574da72",
+    "bytes": 15436666,
+    "pageCount": 808,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 728,
+      "ocr": 24,
+      "unreadable": 56
+    }
+  },
+  {
+    "id": "VOL-13",
+    "title": "Volume 13 · supplied PDF",
+    "filename": "Volume13.pdf",
+    "sha256": "e6362ece69ba1adb2140b6f845fc44924408aa8de245bd68f2644ba2dc8ce546",
+    "bytes": 23211889,
+    "pageCount": 1278,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 1237,
+      "ocr": 18,
+      "unreadable": 23
+    }
+  },
+  {
+    "id": "VOL-14-I",
+    "title": "Volume 14 · Part I · supplied PDF",
+    "filename": "Volume14_Part_I.pdf",
+    "sha256": "578da6548d258b10060ee069901ccfd354cbe2a478b28a2ffd4e6ac47fb4bdaa",
+    "bytes": 8986024,
+    "pageCount": 806,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 4,
+      "ocr": 792,
+      "unreadable": 10
+    }
+  },
+  {
+    "id": "VOL-14-II",
+    "title": "Volume 14 · Part II · supplied PDF",
+    "filename": "Volume14_Part_II.pdf",
+    "sha256": "7326e4bd4109e3fa3460652f3eab1b5782e855317acd9e641d1fb8919e471641",
+    "bytes": 7557728,
+    "pageCount": 614,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 4,
+      "ocr": 599,
+      "unreadable": 11
+    }
+  },
+  {
+    "id": "VOL-15",
+    "title": "Volume 15 · supplied PDF",
+    "filename": "Volume15.pdf",
+    "sha256": "3d4436142da438caeaff8c3b308813850a5785a7f027fa8a4761d0574822b766",
+    "bytes": 15920888,
+    "pageCount": 1134,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 1094,
+      "ocr": 14,
+      "unreadable": 26
+    }
+  },
+  {
+    "id": "VOL-16",
+    "title": "Volume 16 · supplied PDF",
+    "filename": "Volume16.pdf",
+    "sha256": "b287a3a4228f6c05b38ef0b6d76037151983bc11f1db16db86e8d79bc26d19bd",
+    "bytes": 10645087,
+    "pageCount": 768,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 4,
+      "ocr": 744,
+      "unreadable": 20
+    }
+  },
+  {
+    "id": "VOL-17-I",
+    "title": "Volume 17 · Part I · supplied PDF",
+    "filename": "Volume17_Part_I.pdf",
+    "sha256": "47aa3de93753bd897b3e9c0437c8a3136e460b19f2f22f12e96cb94fb0b89156",
+    "bytes": 14066396,
+    "pageCount": 514,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 488,
+      "ocr": 10,
+      "unreadable": 16
+    }
+  },
+  {
+    "id": "VOL-17-II",
+    "title": "Volume 17 · Part II · supplied PDF",
+    "filename": "Volume17_Part_II.pdf",
+    "sha256": "9f26416b2e9a45012a4e7c49acf3844be2963d64c92747add5329abea25aa5af",
+    "bytes": 13440538,
+    "pageCount": 578,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 553,
+      "ocr": 11,
+      "unreadable": 14
+    }
+  },
+  {
+    "id": "VOL-17-III",
+    "title": "Volume 17 · Part III · supplied PDF",
+    "filename": "Volume17_Part_III.pdf",
+    "sha256": "8453d62202a14258ec662338883f130566d36b8ab5b2144273ac06a6f4757200",
+    "bytes": 10670889,
+    "pageCount": 642,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 626,
+      "ocr": 7,
+      "unreadable": 9
+    }
+  },
+  {
+    "id": "SRC-BR-AMBEDKAR",
+    "title": "B. R. Ambedkar · Wikipedia reference printout",
+    "filename": "B._R._Ambedkar.pdf",
+    "sha256": "bf3c19b77a9c127732837bd25cea72a426272c7107cb57064ffd040aa66015a9",
+    "bytes": 2430198,
+    "pageCount": 36,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 35,
+      "ocr": 1,
+      "unreadable": 0
+    }
+  },
+  {
+    "id": "SRC-CONSTITUTION",
+    "title": "Original Manuscript of the Constitution of India",
+    "filename": "Original-Manuscript-of-the-Constitution-of-India_New1(1).pdf",
+    "sha256": "e5cb50a2df24f4fbf65fbb1e125cbaa81124e0f518ba52d005344de10c742ec4",
+    "bytes": 49315935,
+    "pageCount": 240,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 223,
+      "ocr": 8,
+      "unreadable": 9
+    }
+  },
+  {
+    "id": "SRC-LIFE-MISSION",
+    "title": "Dr. Ambedkar: Life and Mission",
+    "filename": "ambekar-life-mission.pdf",
+    "sha256": "53614f1294ab187b1b9029d2cfb36a4bd20e99a4c6e4796c006dc5e07afd1406",
+    "bytes": 43786912,
+    "pageCount": 560,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 0,
+      "ocr": 544,
+      "unreadable": 16
+    }
+  },
+  {
+    "id": "SRC-VOL12-ALT",
+    "title": "Dr. Babasaheb Ambedkar: Writings and Speeches, Vol. 12 · alternate scan",
+    "filename": "dr-babasaheb-ambedkar-vol-12-notes-on-law-autobiography-and-miscellaneous-writings.pdf",
+    "sha256": "a5c744bb7422b4ff350212b9983a0fbd120eb9bb6e315cbd4b40f1fb3741dfd7",
+    "bytes": 8551666,
+    "pageCount": 811,
+    "source": "User-supplied PDF",
+    "extraction": {
+      "native": 745,
+      "ocr": 65,
+      "unreadable": 1
+    }
+  }
+]
