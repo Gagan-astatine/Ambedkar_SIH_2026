@@ -20,10 +20,21 @@ export async function GET(req:Request){
   if(!object){const base=process.env.ARCHIVE_SOURCE_BASE_URL;if(!base)return new Response('Original PDF unavailable',{status:404});const remote=new URL(`/api/archive/supplied?documentId=${encodeURIComponent(doc.id)}`,base);if(remote.origin===new URL(req.url).origin)return new Response('Original PDF unavailable',{status:404});const response=await fetch(remote,{headers:range?{Range:req.headers.get('range')||''}:{}});if(!response.ok)return new Response('Original PDF unavailable',{status:response.status});const copy=new Headers(response.headers);copy.set('Content-Disposition',`inline; filename*=UTF-8''${encodeURIComponent(doc.filename)}`);return new Response(response.body,{status:response.status,headers:copy});}
   headers=rangeHeaders(range,doc.bytes,'application/pdf','public, max-age=3600');body=object.body;
  }else{
-  if(!storage.ASSETS){const path=`/corpus/pdf/${encodeURIComponent(doc.filename)}`;return Response.redirect(new URL(path,req.url),307);}
-  const assetUrl=new URL(`/corpus/pdf/${encodeURIComponent(doc.filename)}`,req.url);
+  if(!storage.ASSETS){
+    // Use the raw filename in the path — the static server matches the literal file name.
+    // Reconstruct the public origin from forwarded headers so that internal
+    // Firebase App Hosting addresses (0.0.0.0:8080) are never exposed to clients.
+    const path=`/corpus/pdf/${doc.filename}`;
+    const reqUrl=new URL(req.url);
+    const proto=req.headers.get('x-forwarded-proto')||reqUrl.protocol.replace(':','');
+    const host=req.headers.get('x-forwarded-host')||req.headers.get('host')||reqUrl.host;
+    const publicBase=`${proto}://${host}`;
+    return Response.redirect(new URL(path,publicBase),307);
+  }
+  const assetUrl=new URL(`/corpus/pdf/${doc.filename}`,req.url);
   const assetRequest=new Request(assetUrl,{headers:req.headers});
   const asset=await storage.ASSETS.fetch(assetRequest);
+
   if(!asset.ok)return new Response('Original PDF unavailable',{status:asset.status});
   status=asset.status;headers=new Headers(asset.headers);body=asset.body;
   headers.set('Content-Type','application/pdf');headers.set('Accept-Ranges','bytes');headers.set('Cache-Control','public, max-age=3600');headers.set('X-Content-Type-Options','nosniff');

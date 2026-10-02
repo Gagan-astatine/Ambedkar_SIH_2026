@@ -57,6 +57,17 @@ function relatedPhotographs(event: TimelineEvent, frames: ArchiveFrame[]) {
   }).slice(0, 3);
 }
 
+/** Normalise any legacy /corpus/pdf/<file> URL to the API route so Firebase
+ *  static hosting is never hit directly for PDFs in iframes or window.open calls. */
+function toApiPdfUrl(rawUrl: string | undefined, documentId?: string): string | undefined {
+  if (!rawUrl) return undefined;
+  // Already using the API — return as-is
+  if (rawUrl.startsWith('/api/')) return rawUrl;
+  // Legacy direct path — convert to API route using documentId if available
+  if (documentId) return `/api/archive/supplied?documentId=${encodeURIComponent(documentId)}`;
+  return rawUrl;
+}
+
 function EventDetails({ milestone, event, photographs, relatedOpen, setRelatedOpen, onRelated, onSource, onAsk, onClose }: {
   milestone: TimelineMilestone; event: TimelineEvent; relatedOpen: boolean; setRelatedOpen: (value: boolean) => void;
   photographs: ArchiveFrame[];
@@ -65,7 +76,8 @@ function EventDetails({ milestone, event, photographs, relatedOpen, setRelatedOp
 }) {
   const source = event.sourceReferences[0];
   const document = source ? archiveService.get(source.documentId) : undefined;
-  const pdfUrl = source && (document?.pdfUrl || source.pdfUrl);
+  const rawPdfUrl = source && (document?.pdfUrl || source.pdfUrl);
+  const pdfUrl = toApiPdfUrl(rawPdfUrl || undefined, source?.documentId);
   const location = event.places[0] || 'Location not identified in the indexed passage';
   const topic = event.topics[0] || event.people[0];
   return <aside id="timeline-event-details" className="orbit-detail" aria-label="Explore event">
@@ -421,7 +433,11 @@ export default function TimelineJourney({ reduced, webgl, onOpen }: { reduced: b
     pauseRef.current();
     const document = archiveService.get(source.documentId);
     if (document) onOpen(document, source.pageNumber);
-    else window.open(source.pdfUrl + '#page=' + source.pageNumber, '_blank', 'noopener,noreferrer');
+    else {
+      // Always resolve through the API route — never use a direct /corpus/pdf/ path
+      const apiUrl = toApiPdfUrl(source.pdfUrl, source.documentId);
+      window.open((apiUrl ?? source.pdfUrl) + '#page=' + source.pageNumber, '_blank', 'noopener,noreferrer');
+    }
   }, [onOpen]);
 
   function pointerDown(event: ReactPointerEvent<HTMLDivElement>) {
