@@ -301,6 +301,7 @@
     "bytes": 49315935,
     "pageCount": 240,
     "source": "User-supplied PDF",
+    "delivery": "R2",
     "extraction": {
       "native": 223,
       "ocr": 8,
@@ -315,6 +316,7 @@
     "bytes": 43786912,
     "pageCount": 560,
     "source": "User-supplied PDF",
+    "delivery": "R2",
     "extraction": {
       "native": 0,
       "ocr": 544,
